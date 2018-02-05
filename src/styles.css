@@ -7,8 +7,9 @@ body {
   font-family: Roboto, sans-serif;  
 }
 
+/* container is the name of the div in the html file in menu component, note the . */
 .container {
 	margin: 20px;
 	display: flex;
-	/* what is flex */
+	/* what is flex? just to make it variable later as a group? */
 }
