@@ -4,6 +4,11 @@
 body { 
   padding: 0; 
   margin: 10; 
-  font-family: Roboto, sans-serif; 
-  
+  font-family: Roboto, sans-serif;  
+}
+
+.container {
+	margin: 20px;
+	display: flex;
+	/* what is flex */
 }
