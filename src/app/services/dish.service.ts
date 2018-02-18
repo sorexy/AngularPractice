@@ -10,4 +10,14 @@ export class DishService {
 	getDishes() {
 		return DISHES;
 	}
+
+	getDish(id: number): Dish {
+		// => is shorthand way of writing a function write inside function
+		return DISHES.filter( (dish)=>(dish.id === id) )[0];
+	}
+
+	getFeaturedDish(): Dish {
+		return DISHES.filter( (dish)=> (dish.featured) )[0]; // bcause boolean, no need ===1
+	}
+	
 }

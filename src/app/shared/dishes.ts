@@ -2,6 +2,8 @@ import { Dish } from '../shared/dish';
 
 export const DISHES: Dish[] =  [ // square brackets because the information here is an array of javascript objects
     {
+	id: 0,
+	featured: true,
     name:'Uthappizza',
     image: '/assets/images/uthappizza.png',
     category: 'mains',
@@ -9,6 +11,8 @@ export const DISHES: Dish[] =  [ // square brackets because the information here
     price:'4.99',
     description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.'                        },
     {
+		id: 1,
+		featured: false,
         name:'Zucchipakoda',
         image: '/assets/images/zucchipakoda.png',
         category: 'appetizer',
@@ -16,6 +20,8 @@ export const DISHES: Dish[] =  [ // square brackets because the information here
         price:'1.99',
         description:'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce'                        },
     {
+			id:2,
+			featured: false,
             name:'Vadonut',
             image: '/assets/images/vadonut.png',
             category: 'appetizer',
@@ -23,6 +29,8 @@ export const DISHES: Dish[] =  [ // square brackets because the information here
             price:'1.99',
             description:'A quintessential ConFusion experience, is it a vada or is it a donut?'                        },
     {
+				id: 3,
+				featured: false,
                 name:'ElaiCheese Cake',
                 image: '/assets/images/elaicheesecake.png',
                 category: 'dessert',
