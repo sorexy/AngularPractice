@@ -7,6 +7,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './components/menu/menu.component';
 
+import { DishService } from './services/dish.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { MenuComponent } from './components/menu/menu.component';
 	  BrowserAnimationsModule,
 	  FlexLayoutModule
   ],
-  providers: [],
+  providers: [DishService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
