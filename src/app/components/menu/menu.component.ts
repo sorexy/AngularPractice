@@ -14,7 +14,7 @@ import { DishService } from '../../services/dish.service';
 export class MenuComponent implements OnInit {
 
 	dishes: Dish[];
-	selectedDish: Dish = dishes[0];
+	selectedDish: Dish;
 	// remember Dish is a pre-defined type imported from Dish up above
 
 	// disService is of DishSerice type, automatically assigns it to dishService
@@ -23,6 +23,8 @@ export class MenuComponent implements OnInit {
 	ngOnInit() {
 		// ask service to fetch information
 		this.dishes = this.dishService.getDishes();
+//		selectedDish = this.dishes[0];
+		
 	}
 
 	onSelect(dish: Dish) {
